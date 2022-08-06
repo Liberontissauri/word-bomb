@@ -1,0 +1,41 @@
+.bgElementMagenta {
+    position: absolute;
+    left: -19%;
+    bottom: -11%;
+    height: 50vh;
+    width: 90vw;
+    background: rgba(120, 91, 143, 0.66);
+    filter: blur(203px);
+
+    z-index: -1;
+}
+.bgElementBlue {
+    position: absolute;
+    right: -19%;
+    top: -11%;
+    height: 50vh;
+    width: 90vw;
+    background: rgba(91, 96, 143, 0.62);
+    filter: blur(203px);
+
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.button_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 145px;
+
+    margin-top: 50px;
+}
