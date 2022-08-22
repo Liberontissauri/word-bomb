@@ -21,10 +21,33 @@
     z-index: -1;
 }
 
+.button_div {
+    margin-top: 8vh
+}
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+.room_list_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 430px;
+}
+
+.room_list_text {
+    width: 100%;
+    text-align: center;
+}
+.room_list_header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
 }
