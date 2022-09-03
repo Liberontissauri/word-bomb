@@ -26,7 +26,7 @@ function Room() {
                 {isOwner ? <Button text="Start Game"></Button> : null}
             </div>
             <div className={`${styles.game_room_div} ${isGameStarted ? "" : styles.unactive}`}>
-                <h1 className={styles.game_info}>It's Your Turn</h1>
+                <h1 className={styles.game_info}>{"It's Your Turn"}</h1>
                 <div className={styles.turn_list} style={{marginBottom: "20px"}}>
                     <ItemList text="Next to play..." items={players.map(player => player.name)}></ItemList>
                 </div>
