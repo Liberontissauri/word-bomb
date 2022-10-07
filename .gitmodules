@@ -1,3 +1,6 @@
 [submodule "word-bomb-http-functions"]
 	path = word-bomb-http-functions
 	url = https://github.com/Liberontissauri/word-bomb-http-functions
+[submodule "word-bomb-main-server"]
+	path = word-bomb-main-server
+	url = https://github.com/Liberontissauri/word-bomb-main-server.git
